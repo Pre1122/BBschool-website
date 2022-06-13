@@ -1,0 +1,151 @@
+header{
+    display: flex;
+    justify-content: space-around;
+}
+header h1{
+    font-size: 40px;
+}
+header p{
+    font-size: 15px;
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(2, 2, 94);
+    padding: 20px;
+}
+nav a{
+    color: white;
+}
+.about1{
+    display: none;
+}
+.about:hover {
+    display: grid;
+    color: red;
+}
+h1{
+    text-align: center;
+}
+main {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+main p{
+    width: 60%;
+    font-size: 18px;
+    text-align: justify;
+    padding: 10px;
+    margin: 30px;
+}
+.images{
+    padding:10px
+}
+
+main2 p{
+    float: right;
+    width:40%;
+    font-size: 18px;
+    text-align: justify;
+    padding: 10px;
+    margin: 30px;
+}
+.reservation{
+    background: rgb(2, 2, 94);
+    width:300px;
+    height:400px;
+    padding:50px ;
+    margin: 60px;
+    opacity: 1;
+}
+.reservation:hover{
+    opacity: 0.8;
+}
+input[type="text"]{
+    width: 90%;
+    padding: 5px;
+    margin: 5px;
+    background: white;   
+}
+input[type="text"]:focus{
+    background: lightgrey; 
+}
+#area{
+    width: 90%;
+    padding: 5px;
+    margin: 5px;
+    background: white;  
+}
+#area:focus{
+    background: lightgrey; 
+}
+.but{
+    width:30%;
+    padding: 10px;
+    background: white;
+    font-size:20px;
+    margin: 5px;
+    margin-left: 100px;
+}
+.but:hover{
+    background: lightgrey; 
+}
+.reservation h2{
+    text-align: center;
+    color: white;
+}
+.reservation p{
+    text-align: center;
+    color: white;
+}
+main3{
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(2, 2, 94);
+}
+footer a{
+    text-decoration: none;
+    text-align: center;
+    color: red;
+}
+footer ul{
+    text-align: center;
+}
+footer span{
+    color: white;
+    font-weight: bolder;
+}
+footer p{
+    color: red;
+}
+footer:hover{
+    opacity:0.9
+}
+aboutmain h1{
+    text-align: center;
+}
+aboutmain p{
+    text-align: center;
+}
+.details{
+    display: flex;
+    justify-content: space-around;
+}
+.details2{
+    background:rgb(2, 2, 94);
+    color: white;
+    width:50%
+}
+.details1 img{
+    padding: 20px;
+}
+details1 h2{
+    text-align: center;
+}
